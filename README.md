@@ -2,4 +2,6 @@
 
 **Make sure your bios version is [7B17v10](http://download.msi.com/bos_exe/mb/7B17v10.zip), otherwise the installation would never be completed!**
 
-![mojave preview](./preview.png)
+> This branch is for *Mojave*, go to checkout [*Catalina here*](https://github.com/cangzhang/efi-for-9700k-msi-z390-gaming-pro-carbon/tree/master)
+
+![mojave preview](./mojave-preview.png)

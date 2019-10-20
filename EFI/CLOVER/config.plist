@@ -112,7 +112,7 @@
 	<key>Boot</key>
 	<dict>
 		<key>Arguments</key>
-		<string>dart=0 nv_disable=1 -disablegfxfirmware</string>
+		<string>dart=0 nv_disable=1 -disablegfxfirmware -wegnoegpu</string>
 		<key>Debug</key>
 		<false/>
 		<key>DefaultVolume</key>
@@ -128,6 +128,43 @@
 	</dict>
 	<key>Devices</key>
 	<dict>
+		<key>AddProperties</key>
+		<array>
+			<dict>
+				<key>Device</key>
+				<string>NVidia</string>
+				<key>Disabled</key>
+				<false/>
+				<key>Key</key>
+				<string>name</string>
+				<key>Value</key>
+				<data>
+				I2Rpc3BsYXk=
+				</data>
+			</dict>
+			<dict>
+				<key>Device</key>
+				<string>NVidia</string>
+				<key>Disabled</key>
+				<false/>
+				<key>Key</key>
+				<string>IOName</string>
+				<key>Value</key>
+				<string>#display</string>
+			</dict>
+			<dict>
+				<key>Device</key>
+				<string>NVidia</string>
+				<key>Disabled</key>
+				<false/>
+				<key>Key</key>
+				<string>class-code</string>
+				<key>Value</key>
+				<data>
+				/////w==
+				</data>
+			</dict>
+		</array>
 		<key>Audio</key>
 		<dict>
 			<key>Inject</key>
@@ -190,7 +227,7 @@
 			<true/>
 		</dict>
 		<key>Theme</key>
-		<string>black_green</string>
+		<string>Catalina</string>
 	</dict>
 	<key>Graphics</key>
 	<dict>

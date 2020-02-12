@@ -25,6 +25,20 @@
 			<array>
 				<dict>
 					<key>Comment</key>
+					<string>Fix bios stuck, ACPI Patch by mattystonnie</string>
+					<key>Disabled</key>
+					<false/>
+					<key>Find</key>
+					<data>
+					oAqTU1RBUwE=
+					</data>
+					<key>Replace</key>
+					<data>
+					oAqRCv8L//8=
+					</data>
+				</dict>
+				<dict>
+					<key>Comment</key>
 					<string>change SAT0 to SATA</string>
 					<key>Disabled</key>
 					<false/>
@@ -112,7 +126,7 @@
 	<key>Boot</key>
 	<dict>
 		<key>Arguments</key>
-		<string>dart=0 nv_disable=1 -disablegfxfirmware -wegnoegpu</string>
+		<string>dart=0 nv_disable=1 -disablegfxfirmware -wegnoegpu slide=0</string>
 		<key>Debug</key>
 		<false/>
 		<key>DefaultVolume</key>
